@@ -1,4 +1,4 @@
-# Portfolio Site
+# Portfolio
 
 This portfolio website showcases my professional journey as a software developer and designer.
 
@@ -21,3 +21,10 @@ This portfolio website showcases my professional journey as a software developer
 - **Framer Motion**: For adding smooth animation effects.
 
 ---
+
+## Developer Notes
+
+**Current Version**: 1.0.0  
+This portfolio site is a work in progress and will continue to evolve as I add new projects, skills, and features.
+
+**Status**: Actively maintained.
