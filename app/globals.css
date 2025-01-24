@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  display: inline-block;
+  width: 2ch;
+  animation: blink 1.2s ease-out infinite;
+  font-size: 3rem;
+}
+
+body {
+  @apply bg-zinc-500;
+}
