@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Site
 
-## Getting Started
+This portfolio website showcases my professional journey as a software developer and designer.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Responsive Design**: Built with mobile-first philosophy, ensuring a seamless experience across all devices.
+- **Dynamic Project Display**: Projects are displayed with interactive cards that provide a snapshot of each project.
+- **Animated Interactions**: Utilizes Framer Motion for smooth, engaging animations across the site.
+- **Tag-Based Filtering**: Projects can be filtered by technology tags, allowing visitors to find projects quickly based on the stack used.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Components
 
-## Learn More
+### `About.tsx`
 
-To learn more about Next.js, take a look at the following resources:
+- Introduces the user with a brief biography and professional highlights.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### `Hero.tsx`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Displays a prominent hero section with a welcoming message and a call to action.
 
-## Deploy on Vercel
+### `MobileMenu.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Provides a responsive menu for mobile users, ensuring easy navigation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### `Navbar.tsx`
+
+- A navigation bar that links to different sections of the site, including a dynamic indicator for the current section.
+
+### `NavTabs.tsx`
+
+- Tabbed navigation in the projects section for filtering projects based on categories or technologies.
+
+### `ProjectCards.tsx`
+
+- Cards used to display key information for projects, including images, descriptions, and links.
+
+### `ProjectSection.tsx`
+
+- The section that holds all the projects, utilizing `ProjectCards` for display.
+
+### `ProjectTagButtons.tsx`
+
+- Buttons that allow users to filter projects on the basis of tags like 'React', 'Node.js', etc.
+
+### `TabButton.tsx`
+
+- A reusable button component for the navigation tabs.
+
+---
+
+## Technologies Used
+
+- **React.js**: For building the user interface with component-based architecture.
+- **TypeScript**: To ensure type safety and enhance code quality and maintainability.
+- **Tailwind CSS**: For styling and responsive design.
+- **Framer Motion**: For adding smooth animation effects.
+
+---
