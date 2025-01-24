@@ -13,46 +13,6 @@ This portfolio website showcases my professional journey as a software developer
 
 ---
 
-## Components
-
-### `About.tsx`
-
-- Introduces the user with a brief biography and professional highlights.
-
-### `Hero.tsx`
-
-- Displays a prominent hero section with a welcoming message and a call to action.
-
-### `MobileMenu.tsx`
-
-- Provides a responsive menu for mobile users, ensuring easy navigation.
-
-### `Navbar.tsx`
-
-- A navigation bar that links to different sections of the site, including a dynamic indicator for the current section.
-
-### `NavTabs.tsx`
-
-- Tabbed navigation in the projects section for filtering projects based on categories or technologies.
-
-### `ProjectCards.tsx`
-
-- Cards used to display key information for projects, including images, descriptions, and links.
-
-### `ProjectSection.tsx`
-
-- The section that holds all the projects, utilizing `ProjectCards` for display.
-
-### `ProjectTagButtons.tsx`
-
-- Buttons that allow users to filter projects on the basis of tags like 'React', 'Node.js', etc.
-
-### `TabButton.tsx`
-
-- A reusable button component for the navigation tabs.
-
----
-
 ## Technologies Used
 
 - **React.js**: For building the user interface with component-based architecture.
