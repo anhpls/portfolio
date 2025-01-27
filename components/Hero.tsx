@@ -51,11 +51,11 @@ const Hero = ({
           transition={transition}
         >
           <p className="z-10 text-neutral-600 text-center md:text-justify font-semibold mb-2 text-md lg:text-xl mt-1">
-            I'm a software developer from San Diego, California. I aim at
-            leveraging technology and creativity to solve complex problems. I'm
-            dedicated to building user-centric solutions that deliver impactful
-            digital experiences through forward-thinking applications and
-            products.
+            I’m a software developer based in San Diego, California, focused on
+            integrating scalability and user-centric design into applications. I
+            strive to leverage technology and creativity to solve complex
+            problems, creating forward-thinking solutions that deliver impactful
+            digital experiences through innovative applications and products.
           </p>
           <div>
             {/* Mail Button */}

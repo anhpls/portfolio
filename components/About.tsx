@@ -140,7 +140,7 @@ const About = () => {
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500">
-              B.S.E in Computer Science (In-Progress)
+              B.S in Computer Science (In-Progress)
               <br />
               B.F.A in 3D Animation
             </span>
