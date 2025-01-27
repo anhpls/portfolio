@@ -252,7 +252,7 @@ const About = () => {
                 Experience
               </TabButton> */}
             </div>
-            <div className="mt-8 h-[350px] overflow-auto relative">
+            <div className="mt-5 h-[350px] overflow-auto relative">
               <motion.div
                 key={tab}
                 initial={{ opacity: 0, y: 10 }}
