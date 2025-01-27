@@ -33,6 +33,7 @@ const navItems = [
 ];
 
 export default function Home() {
+  const [scrollEnabled, setScrollEnabled] = useState(false);
   const [isDockVisible, setIsDockVisible] = useState(false);
 
   useEffect(() => {

@@ -196,8 +196,9 @@ const About = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.2 }}
-      viewport={{ once: false, amount: 0.3 }}
-      className="text-zinc-600 font-semibold font-sans mb-10 mt-10 md:mt-24 md:mb-0"
+      viewport={{ once: true, amount: 0.3 }}
+      className="text-zinc-600 font-semibold font-sans mb-10 mt-10 md:mt-24 lg:mt-36 md:mb-0"
+      id="about"
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
         {/* Image */}

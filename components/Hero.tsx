@@ -16,7 +16,7 @@ const Hero = ({
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 z-20 mt-20 lg:mt-28 md:mb-20">
+    <div className="grid grid-cols-1 sm:grid-cols-12 z-20 mt-20 lg:mt-36 md:mb-20">
       {/* Typing Header */}
       <div className="col-span-7 place-self-center text-center sm:text-left">
         <motion.div
@@ -34,9 +34,9 @@ const Hero = ({
             className="font-sans font-semibold text-stone-900 text-4xl sm:text-5xl lg:text-6xl"
           />
           <TypeAnimation
-            sequence={["", 3800, "anh", 300]}
+            sequence={["", 3870, "anh", 300]}
             wrapper="span"
-            speed={1}
+            speed={10}
             cursor={false}
             className="font-extrabold text-transparent text-4xl sm:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-bl from-orange-500 to-rose-500 transition-colors duration-100 "
             repeat={0}
