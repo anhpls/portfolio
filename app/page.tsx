@@ -46,7 +46,7 @@ export default function Home() {
     <>
       {" "}
       <TracingBeam>
-        <main className="flex min-h-screen flex-col bg-zinc-200">
+        <main className="flex min-h-screen flex-col bg-zinc-50">
           <Navbar />
 
           <div className="container mx-auto px-12 py-4">

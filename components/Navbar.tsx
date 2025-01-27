@@ -37,7 +37,7 @@ const Navbar = ({
       transition={transition}
     >
       <nav className="fixed top-0 left-0 right-0 bg-opacity-5 md:-left-5 z-50">
-        <div className="z-50 flex flex-wrap items-center justify-between mx-auto pt-3 px-9 bg-zinc-200">
+        <div className="z-50 flex flex-wrap items-center justify-between mx-auto pt-3 px-9 bg-zinc-50">
           <Link href={"/"} className="text-white ml-6 text-2xl">
             <Image
               src="/images/logo.png"

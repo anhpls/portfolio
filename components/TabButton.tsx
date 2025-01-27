@@ -13,7 +13,7 @@ const TabButton: React.FC<TabButtonProps> = ({
 }) => {
   const buttonClasses = active
     ? "text-red-500 border-b border-orange-300 transition-colors duration-200 bg-red-900 bg-opacity-5 rounded-full px-4 py-2"
-    : "text-zinc-500 px-4 py-2";
+    : "text-zinc-500 px-4 py-2 rounded-full";
 
   return (
     <button onClick={selectTab}>
