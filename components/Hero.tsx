@@ -50,7 +50,7 @@ const Hero = ({
           animate={animate}
           transition={transition}
         >
-          <p className="z-10 text-neutral-600 text-center md:text-justify font-semibold mb-2 text-md lg:text-lg mt-1 xl:text-xl">
+          <p className="z-10 text-neutral-600 text-center md:text-justify font-semibold mb-2 text-md lg:text-lg mt-1 xl:text-xl leading-tight">
             I’m a software developer based in San Diego, California, focused on
             integrating scalability and user-centric design into applications. I
             strive to leverage technology and creativity to solve complex
