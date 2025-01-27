@@ -34,7 +34,7 @@ const Hero = ({
             className="font-sans font-semibold text-stone-900 text-4xl sm:text-5xl lg:text-6xl"
           />
           <TypeAnimation
-            sequence={["", 3990, "anh", 300]}
+            sequence={["", 3800, "anh", 300]}
             wrapper="span"
             speed={1}
             cursor={false}
