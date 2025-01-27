@@ -15,6 +15,7 @@ import {
 import { time } from "console";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 const navItems = [
   { title: "Home", icon: <IconHome />, href: "/" },
@@ -45,6 +46,10 @@ export default function Home() {
   return (
     <>
       {" "}
+      <Head>
+        <title>Anh Huynh</title>
+        <link rel="icon" href="/images/logo.png" type="image/png" />
+      </Head>
       <TracingBeam>
         <main className="flex min-h-screen flex-col bg-zinc-50">
           <Navbar />
