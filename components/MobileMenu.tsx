@@ -12,7 +12,7 @@ interface MobileMenuProps {
 
 const MobileMenu: React.FC<MobileMenuProps> = ({ links }) => {
   return (
-    <ul className="flex p-4 md:p-0 md:flex-col md:space-x-8 mt-2">
+    <ul className="flex flex-col p-4 md:p-0 md:flex-col md:space-x-8 mt-2">
       {links.map((link, index) => (
         <li key={index}>
           <NavTabs href={link.path} title={link.title} />

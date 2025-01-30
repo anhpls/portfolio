@@ -24,16 +24,16 @@ export const ProjectSection = () => {
       description:
         "A luxury brand e-commerce app lorem ipsum sdkfaejsla laksefjlasef asejfllasejkll esafjlasefjljlkaseklj asefksflejklas as jlkfejal jslljk jsljka kslajf lsaj ",
       image: "",
-      gitUrl: "#",
-      pageUrl: "#",
+      gitUrl: "https://github.com/anhpls/aristovlt",
+      pageUrl: "https://aristovlt.com/",
       tag: ["Web", "All"],
-      livePreview: false,
+      livePreview: true,
     },
     {
       id: 2,
       title: "RecipeBook",
       description:
-        "Search from a vast amount of recipes to help you cook dinner...",
+        "A user-friendly web app that lets you save, organize, and browse recipes effortlessly. Designed for home cooks and food enthusiasts, it features a clean UI for quick access to favorite dishes, ingredient lists, and step-by-step instructions. Whether you’re meal planning or discovering new recipes, Recipe Book makes cooking easier and more enjoyable! 🍽️📖✨",
       image: "/images/recipebook/6.png",
       gitUrl: "#",
       pageUrl: "#",
@@ -44,11 +44,22 @@ export const ProjectSection = () => {
       id: 3,
       title: "MichelinStarCat",
       description:
-        "An Idle RPG game where users play as cat chefs and level up....",
+        "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
       image: "/images/meowstrycatstar/1.PNG",
       gitUrl: "#",
       pageUrl: "#",
       tag: ["Mobile", "All"],
+      livePreview: false,
+    },
+    {
+      id: 4,
+      title: "Portfolio",
+      description:
+        "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
+      image: "/images/meowstrycatstar/1.PNG",
+      gitUrl: "https://github.com/anhpls/portfolio",
+      pageUrl: "#",
+      tag: ["Web", "All"],
       livePreview: true,
     },
   ];

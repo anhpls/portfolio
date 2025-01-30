@@ -29,12 +29,16 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
           <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-zinc-400 bg-opacity-0 hidden group-hover/card:flex group-hover/card:bg-opacity-60  group-hover/card:rounded-t-xl transition-all duration-500">
             <Link
               href={gitUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="h-14 w-14 border-2 relative rounded-full border-white transition-colors duration-500 hover:border-zinc-300 group/link"
             >
               <CodeBracketIcon className="h-9 w-9 text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-black duration-500" />
             </Link>
             <Link
               href={pageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="h-14 w-14 ml-6 border-2 relative rounded-full border-white transition-colors duration-500 hover:border-zinc-300 group/link"
             >
               <EyeIcon className="h-9 w-9  text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-black duration-500" />
