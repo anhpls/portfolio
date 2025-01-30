@@ -22,8 +22,8 @@ export const ProjectSection = () => {
       id: 1,
       title: "AristoVLT",
       description:
-        "A luxury brand e-commerce app lorem ipsum sdkfaejsla laksefjlasef asejfllasejkll esafjlasefjljlkaseklj asefksflejklas as jlkfejal jslljk jsljka kslajf lsaj ",
-      image: "",
+        "A sleek and scalable e-commerce platform built for a premium streetwear brand. Developed with Next.js and Tailwind CSS, it features dynamic product rendering, smooth animations, and a seamless user experience. Optimized for performance, accessibility, and future scalability. 🏆🔥",
+      image: "/images/aristovlt/ss4.png",
       gitUrl: "https://github.com/anhpls/aristovlt",
       pageUrl: "https://aristovlt.com/",
       tag: ["Web", "All"],
@@ -35,8 +35,8 @@ export const ProjectSection = () => {
       description:
         "A user-friendly web app that lets you save, organize, and browse recipes effortlessly. Designed for home cooks and food enthusiasts, it features a clean UI for quick access to favorite dishes, ingredient lists, and step-by-step instructions. Whether you’re meal planning or discovering new recipes, Recipe Book makes cooking easier and more enjoyable! 🍽️📖✨",
       image: "/images/recipebook/6.png",
-      gitUrl: "#",
-      pageUrl: "#",
+      gitUrl: "https://github.com/anhpls/recipebook",
+      pageUrl: "https://anhpls.github.io/recipebook/",
       tag: ["Web", "All"],
       livePreview: true,
     },
@@ -46,7 +46,7 @@ export const ProjectSection = () => {
       description:
         "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
       image: "/images/meowstrycatstar/1.PNG",
-      gitUrl: "#",
+      gitUrl: "https://github.com/anhpls/michelincatstar",
       pageUrl: "#",
       tag: ["Mobile", "All"],
       livePreview: false,
@@ -55,8 +55,8 @@ export const ProjectSection = () => {
       id: 4,
       title: "Portfolio",
       description:
-        "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
-      image: "/images/meowstrycatstar/1.PNG",
+        "My portfolio showcasing web development, game design, and creative projects. Built with Next.js and Tailwind CSS, it features smooth animations, dynamic project displays, and a sleek UI.",
+      image: "/images/portfolio/ss.png",
       gitUrl: "https://github.com/anhpls/portfolio",
       pageUrl: "#",
       tag: ["Web", "All"],
@@ -131,7 +131,13 @@ export const ProjectSection = () => {
         animate="show"
       >
         {filteredProjects.map((project) => (
-          <motion.div key={project.id} variants={cardVariants}>
+          <motion.div
+            key={project.id}
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.5 }}
+          >
             <ProjectCards
               title={project.title}
               description={project.description}
@@ -139,6 +145,7 @@ export const ProjectSection = () => {
               tags={project.tag}
               gitUrl={project.gitUrl}
               pageUrl={project.pageUrl}
+              livePreview={project.livePreview}
             />
           </motion.div>
         ))}
