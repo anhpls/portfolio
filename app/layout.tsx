@@ -24,6 +24,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Anh Huynh",
   description: "Design & Coded by Anh Huynh",
+  icons: {
+    icon: "/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({

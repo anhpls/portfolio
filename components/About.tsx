@@ -204,7 +204,7 @@ const About = () => {
         {/* Image */}
         <div className="hidden md:flex justify-center items-center bg-zinc-300 w-[300px] h-[300px] relative md:w-[300px] md:h-[300px] lg:w-[500px] lg:h-[500px] overflow-hidden mx-auto mb-36 ">
           <Image
-            src="/images/heropic.JPG"
+            src="/images/1.JPG"
             alt=""
             width={600}
             height={600}
