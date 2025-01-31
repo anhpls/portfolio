@@ -53,7 +53,7 @@ export const ProjectSection = () => {
     },
     {
       id: 4,
-      title: "MichelinStarCat",
+      title: "MichelinCatStar",
       description:
         "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
       image: "/images/meowstrycatstar/1.PNG",
