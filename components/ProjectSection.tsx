@@ -31,28 +31,6 @@ export const ProjectSection = () => {
     },
     {
       id: 2,
-      title: "RecipeBook",
-      description:
-        "A user-friendly web app that lets you save, organize, and browse recipes effortlessly. Designed for home cooks and food enthusiasts, it features a clean UI for quick access to favorite dishes, ingredient lists, and step-by-step instructions. Whether you’re meal planning or discovering new recipes, Recipe Book makes cooking easier and more enjoyable! 🍽️📖✨",
-      image: "/images/recipebook/6.png",
-      gitUrl: "https://github.com/anhpls/recipebook",
-      pageUrl: "https://anhpls.github.io/recipebook/",
-      tag: ["Web", "All"],
-      livePreview: true,
-    },
-    {
-      id: 3,
-      title: "MichelinStarCat",
-      description:
-        "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
-      image: "/images/meowstrycatstar/1.PNG",
-      gitUrl: "https://github.com/anhpls/michelincatstar",
-      pageUrl: "#",
-      tag: ["Mobile", "All"],
-      livePreview: false,
-    },
-    {
-      id: 4,
       title: "Portfolio",
       description:
         "My portfolio showcasing web development, game design, and creative projects. Built with Next.js and Tailwind CSS, it features smooth animations, dynamic project displays, and a sleek UI.",
@@ -61,6 +39,28 @@ export const ProjectSection = () => {
       pageUrl: "#",
       tag: ["Web", "All"],
       livePreview: true,
+    },
+    {
+      id: 3,
+      title: "RecipeBook",
+      description:
+        "A user-friendly web app that lets you save, organize, and browse recipes effortlessly. Designed for home cooks and food enthusiasts, it features a clean UI for quick access to favorite dishes, ingredient lists, and step-by-step instructions. Whether you’re meal planning or discovering new recipes, Recipe Book makes cooking easier and more enjoyable! 🍽️📖✨",
+      image: "/images/recipebook/ss2.png",
+      gitUrl: "https://github.com/anhpls/recipebook",
+      pageUrl: "https://anhpls.github.io/recipebook/",
+      tag: ["Web", "All"],
+      livePreview: true,
+    },
+    {
+      id: 4,
+      title: "MichelinStarCat",
+      description:
+        "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
+      image: "/images/meowstrycatstar/1.PNG",
+      gitUrl: "https://github.com/anhpls/michelincatstar",
+      pageUrl: "#",
+      tag: ["Mobile", "All"],
+      livePreview: false,
     },
   ];
 
@@ -137,6 +137,11 @@ export const ProjectSection = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.5 }}
+            className={`transition-opacity duration-300 ${
+              tag === "All" || project.tag.includes(tag)
+                ? "opacity-100 block"
+                : "opacity-0 hidden"
+            }`}
           >
             <ProjectCards
               title={project.title}
