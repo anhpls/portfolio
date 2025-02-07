@@ -175,6 +175,29 @@ const About = () => {
       ),
     },
     {
+      title: "Coursework",
+      id: "coursework",
+      content: (
+        <ul>
+          Relevant Coursework
+          <br />
+          <span className="text-sm text-zinc-500">
+            Calc I / II <br />
+            Discrete Math <br />
+            Linear Algebra <br />
+            Java Programming <br />
+            C/C++ Programming <br />
+            Data Structures in C++ <br />
+            Computer Organization and Assembly Language <br />
+            Computer Architecture <br />
+            Algorithms <br />
+            Operating Systems
+            <br />
+          </span>
+        </ul>
+      ),
+    },
+    {
       title: "Experience",
       id: "experience",
       content: (
@@ -246,12 +269,12 @@ const About = () => {
               >
                 Education
               </TabButton>
-              {/* <TabButton
-                selectTab={() => handleTabChange("experience")}
-                active={tab === "experience"}
+              <TabButton
+                selectTab={() => handleTabChange("coursework")}
+                active={tab === "coursework"}
               >
-                Experience
-              </TabButton> */}
+                Coursework
+              </TabButton>
             </div>
             <div className="mt-5 h-[350px] overflow-auto relative">
               <motion.div

@@ -10,7 +10,7 @@ const NavTabs: React.FC<NavTabsProps> = ({ href, title }) => {
     <ScrollLink
       to={href.replace("", "")}
       smooth={true}
-      duration={800} // Duration of the scroll in milliseconds
+      duration={800}
       offset={href === "home" ? 0 : -70} // Adjust for navbar height if needed
       className="block -mt-1 pb-2 mb-2 pl-3 pr-4 text-zinc-500 sm:text-1 hover:text-zinc-400 font-semibold transition-colors duration-150 cursor-pointer"
     >

@@ -37,7 +37,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               rel="noopener noreferrer"
               className="h-14 w-14 border-2 relative rounded-full border-white transition-colors duration-500 hover:border-zinc-300 group/link"
             >
-              <CodeBracketIcon className="h-9 w-9 text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-black duration-500" />
+              <CodeBracketIcon className="h-9 w-9 text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-zinc-300 duration-500" />
             </Link>
             {livePreview && (
               <Link
@@ -46,12 +46,12 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 rel="noopener noreferrer"
                 className="h-14 w-14 ml-6 border-2 relative rounded-full border-white transition-colors duration-500 hover:border-zinc-300 group/link"
               >
-                <EyeIcon className="h-9 w-9  text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-black duration-500" />
+                <EyeIcon className="h-9 w-9  text-white cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover/link:text-zinc-300 duration-500" />
               </Link>
             )}
           </div>
         </div>
-        <div className="text-white rounded-b-xl bg-neutral-800 py-6 px-4 max-h-36 ">
+        <div className="text-white rounded-b-xl bg-zinc-800 py-6 px-4 max-h-36 ">
           <h5 className="text-xl font-bold mb-2">{title}</h5>
           <p className="font-medium text-gray-500 text-wrap line-clamp-2 text-sm">
             {description}
