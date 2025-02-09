@@ -4,87 +4,6 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import { motion } from "framer-motion";
 
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul>
-        <li className="text-zinc-700">
-          Languages
-          <br />
-          <span className="text-sm text-zinc-500">
-            Java, JavaScript, TypeScript, C#, C++, HTML, CSS
-          </span>
-        </li>
-        <br />
-        <li className="text-zinc-700">
-          Frameworks
-          <br />
-          <span className="text-sm text-zinc-500">
-            NextJS, ReactJS, TailwindCSS
-          </span>
-        </li>
-        <br />
-        <li className="text-zinc-700">
-          Tools
-          <br />
-          <span className="text-sm text-zinc-500">Git</span>
-        </li>
-        <br />
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul>
-        <li className="text-zinc-700">
-          California State University, Long Beach <br />
-          <span className="text-sm text-zinc-500">
-            B.S.E in Computer Science (In-Progress)
-            <br />
-            B.F.A in 3D Animation
-          </span>
-        </li>
-        <br />
-        <li>
-          iAnimate
-          <br />
-          <span className="text-sm text-zinc-500">
-            Game Workshop I, II, III
-          </span>
-        </li>
-        <br />
-        <li>
-          Codecademy
-          <br />
-          <span className="text-sm text-zinc-500">JavaScript</span>
-          <br />
-          <span className="text-sm text-zinc-500">Intermediate JavaScript</span>
-          <br />
-          <span className="text-sm text-zinc-500">C++</span>
-        </li>
-        <br />
-        <li>
-          FCC
-          <br />
-          <span className="text-sm text-zinc-500">Responsive Web Design</span>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    title: "Experience",
-    id: "experience",
-    content: (
-      <ul>
-        <li>#test</li>
-      </ul>
-    ),
-  },
-];
 const About = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, moveTab] = useTransition();
@@ -105,8 +24,7 @@ const About = () => {
             Languages
             <br />
             <span className="text-sm text-zinc-500">
-              TypeScript, Java, JavaScript, C#, C/C++, Python, HTML, CSS,
-              Assembly Language
+              TypeScript, JavaScript, Java, C/C++, Python, C#, HTML, CSS, AL
             </span>
           </li>
           <br />
@@ -158,18 +76,6 @@ const About = () => {
             <span className="text-sm text-zinc-500">
               Game Workshop I, II, III
             </span>
-          </li>
-          <br />
-          <li>
-            Codecademy
-            <br />
-            <span className="text-sm text-zinc-500">JavaScript</span>
-            <br />
-            <span className="text-sm text-zinc-500">
-              Intermediate JavaScript
-            </span>
-            <br />
-            <span className="text-sm text-zinc-500">C++</span>
           </li>
           <br />
         </ul>
