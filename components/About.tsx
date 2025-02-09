@@ -184,6 +184,7 @@ const About = () => {
           <span className="text-sm text-zinc-500">
             Calc I / II <br />
             Discrete Math <br />
+            Physics - Mechanics <br />
             Linear Algebra <br />
             Java Programming <br />
             C/C++ Programming <br />
