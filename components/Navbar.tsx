@@ -47,7 +47,7 @@ const Navbar = ({
           <Image
             src="/images/logo.png"
             alt="logo"
-            className="absolute transform top-1/4 left-4 md:left-10 w-[40px] h-[40px] lg:w-[50px] lg:h-[50px]"
+            className="absolute transform top-2 pb-2 left-4 md:left-6 w-[40px] h-[40px] lg:w-[50px] lg:h-[50px]"
             width={50}
             height={50}
           />

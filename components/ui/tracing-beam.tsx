@@ -12,7 +12,7 @@ export const TracingBeam = ({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end end"], // Properly track the scroll across the container
+    offset: ["start start", "end end"],
   });
 
   const [svgHeight, setSvgHeight] = useState(0);
