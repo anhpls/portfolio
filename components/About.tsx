@@ -171,11 +171,6 @@ const About = () => {
             <span className="text-sm text-zinc-500">C++</span>
           </li>
           <br />
-          <li>
-            FCC
-            <br />
-            <span className="text-sm text-zinc-500">Responsive Web Design</span>
-          </li>
         </ul>
       ),
     },
