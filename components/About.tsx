@@ -105,7 +105,8 @@ const About = () => {
             Languages
             <br />
             <span className="text-sm text-zinc-500">
-              TypeScript, Java, JavaScript, C#, C++, HTML, CSS
+              TypeScript, Java, JavaScript, C#, C/C++, Python, HTML, CSS,
+              Assembly Language
             </span>
           </li>
           <br />
