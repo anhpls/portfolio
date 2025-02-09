@@ -143,6 +143,7 @@ const About = () => {
               M.S in Computer Science (In-Progress)
             </span>
           </li>
+          <br />
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500">
