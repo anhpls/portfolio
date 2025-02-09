@@ -138,11 +138,15 @@ const About = () => {
       content: (
         <ul>
           <li className="text-zinc-700">
+            San Diego State University <br />
+            <span className="text-sm text-zinc-500">
+              M.S in Computer Science (In-Progress)
+            </span>
+          </li>
+          <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500">
-              B.S in Computer Science (In-Progress)
-              <br />
-              B.F.A in 3D Animation
+              B.F.A in Computer Animation
             </span>
           </li>
           <br />
@@ -242,12 +246,11 @@ const About = () => {
             About
           </h1>
           <p className="text-base text-md font-medium text-center md:text-lg md:leading-7 text-zinc-500 md:text-justify md:w-10/12">
-            I am pursuing a Bachelor of Science in Engineering, specifically in
-            Computer Science, while actively building my personal brand through
-            social media platforms. Alongside formal education in backend
-            engineering, I am actively expanding my knowledge of frontend
-            frameworks to transform concepts into fully functional software
-            solutions. <br />
+            I am pursuing a Master of Science in Computer Science, while
+            actively building my personal brand through social media platforms.
+            Alongside formal education in backend engineering, I am actively
+            expanding my knowledge of frontend frameworks to transform concepts
+            into fully functional software solutions. <br />
             <br />
             Outside of my professional and academic pursuits, I enjoy mountain
             biking and strength training as part of my regular fitness routine.
