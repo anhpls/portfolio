@@ -28,7 +28,7 @@ const navItems = [
     icon: <IconBrandLinkedin />,
     href: "https://www.linkedin.com/in/anhpls/",
   },
-  { title: "Contact", icon: <IconMail />, href: "/contact" },
+  { title: "Contact", icon: <IconMail />, href: "mailto:anh.h.duy@gmail.com" },
 ];
 
 export default function Home() {
