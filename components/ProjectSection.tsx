@@ -25,7 +25,7 @@ export const ProjectSection = () => {
         "A sleek and scalable e-commerce platform built for a premium streetwear brand. Developed with Next.js and Tailwind CSS, it features dynamic product rendering, smooth animations, and a seamless user experience. Optimized for performance, accessibility, and future scalability. 🏆🔥",
       image: "/images/aristovlt/ss4.png",
       gitUrl: "https://github.com/anhpls/aristovlt",
-      pageUrl: "https://aristovlt.com/",
+      pageUrl: "https://aristovlt.vercel.app/",
       tag: ["Web", "All"],
       livePreview: true,
     },
