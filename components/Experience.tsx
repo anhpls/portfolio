@@ -23,14 +23,16 @@ const experiences = [
       "• Oversaw inventory management, global shipping, and full business operations.",
     logo: "/images/avlt.png",
   },
-  //   {
-  //     title: "UniFLO",
-  //     company: "Founder",
-  //     date: "2024 – Present",
-  //     description:
-  //       "Built an AI-powered task management platform that parses course syllabi, generates dynamic schedules, and optimizes productivity.",
-  //     logo: "/images/uniflo.ico",
-  //   },
+  {
+    title: "Tiny Tiger",
+    company: "Web Developer Intern",
+    date: "Jan 2025 – Apr 2025",
+    description:
+      "• Maintained and updated the website by integrating monthly activities and special events to enhance user engagement.\n" +
+      "• Designed and implemented user-friendly UX/UI components, ensuring a seamless experience for visitors.\n" +
+      "• Developed and connected a ticketing system to the website’s front-end, streamlining customer interactions and operations.",
+    logo: "/images/tt.png",
+  },
 ];
 
 const ExperienceSection: FC = () => {
