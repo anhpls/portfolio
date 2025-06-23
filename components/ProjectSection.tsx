@@ -20,9 +20,20 @@ export const ProjectSection = () => {
   const projectDetails: ProjectDetail[] = [
     {
       id: 1,
+      title: "Uniflo",
+      description:
+        "UniFLO is an AI-powered task management platform that optimizes student schedules by parsing course syllabi, generating dynamic calendars, and prioritizing assignments for better productivity and time management.",
+      image: "/images/uniflo/pic.png",
+      gitUrl: "https://github.com/anhpls/uniflo",
+      pageUrl: "https://uniflo-beta.vercel.app/",
+      tag: ["Web", "All"],
+      livePreview: true,
+    },
+    {
+      id: 2,
       title: "AristoVLT",
       description:
-        "A sleek and scalable e-commerce platform built for a premium streetwear brand. Developed with Next.js and Tailwind CSS, it features dynamic product rendering, smooth animations, and a seamless user experience. Optimized for performance, accessibility, and future scalability. 🏆🔥",
+        "A sleek and scalable e-commerce platform built for a premium streetwear brand. Developed with Next.js and Tailwind CSS, it features dynamic product rendering, smooth animations, and a seamless user experience. Optimized for performance, accessibility, and future scalability.",
       image: "/images/aristovlt/ss4.png",
       gitUrl: "https://github.com/anhpls/aristovlt",
       pageUrl: "https://aristovlt.vercel.app/",
@@ -30,7 +41,7 @@ export const ProjectSection = () => {
       livePreview: true,
     },
     {
-      id: 2,
+      id: 3,
       title: "Portfolio",
       description:
         "My portfolio showcasing web development, game design, and creative projects. Built with Next.js and Tailwind CSS, it features smooth animations, dynamic project displays, and a sleek UI.",
@@ -41,7 +52,7 @@ export const ProjectSection = () => {
       livePreview: true,
     },
     {
-      id: 3,
+      id: 4,
       title: "RecipeBook",
       description:
         "A user-friendly web app that lets you save, organize, and browse recipes effortlessly. Designed for home cooks and food enthusiasts, it features a clean UI for quick access to favorite dishes, ingredient lists, and step-by-step instructions. Whether you’re meal planning or discovering new recipes, Recipe Book makes cooking easier and more enjoyable! 🍽️📖✨",
@@ -52,14 +63,14 @@ export const ProjectSection = () => {
       livePreview: true,
     },
     {
-      id: 4,
+      id: 5,
       title: "MichelinCatStar",
       description:
         "A charming idle RPG where adorable chef cats battle enemies to collect rare ingredients, craft gourmet dishes, and upgrade their kitchens. Players progress by mastering recipes, unlocking new skills, and exploring different themed maps while earning rewards even when offline. Inspired by MapleStory and Cats & Soup, the game blends cooking, combat, and strategy in a delightful, whimsical world. 🍜🐱✨",
       image: "/images/meowstrycatstar/1.PNG",
       gitUrl: "https://github.com/anhpls/michelincatstar",
-      pageUrl: "#",
-      tag: ["Mobile", "All"],
+      pageUrl: "https://uniflo-beta.vercel.app/",
+      tag: ["Web", "All"],
       livePreview: false,
     },
   ];
@@ -90,18 +101,18 @@ export const ProjectSection = () => {
       : projectDetails.filter((project) => project.tag.includes(tag));
 
   return (
-    <div className="lg:mt-20 mt-10">
+    <div className="lg:mt-20 mt-10 py-10 px-4 md:px-16 lg:px-32 bg-zinc-50">
       <motion.div
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="text-3xl font-bold text-center mb-10"
+        className="text-3xl font-bold text-center mb-1"
         id="projects"
       >
         Projects
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -123,7 +134,7 @@ export const ProjectSection = () => {
           name="Mobile"
           isActive={tag === "Mobile"}
         />
-      </motion.div>
+      </motion.div> */}
       <motion.div
         className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16 p-10"
         variants={containerVariants}

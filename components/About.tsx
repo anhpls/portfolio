@@ -23,29 +23,35 @@ const About = () => {
           <li className="text-zinc-700">
             Languages
             <br />
-            <span className="text-sm text-zinc-500">
-              TypeScript, JavaScript, Java, C/C++, Python, C#, HTML, CSS, AL
+            <span className="text-sm text-zinc-500 font-normal">
+              C/C++, TypeScript, JavaScript, Java, Python, C#, HTML/CSS,
+              Assembly Language (x86)
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
             Frameworks and Libraries
             <br />
-            <span className="text-sm text-zinc-500">
-              NextJS, ReactJS, TailwindCSS
+            <span className="text-sm text-zinc-500 font-normal">
+              Next.js, React.js, Node.js, TailwindCSS, Docker
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
-            Tools
+            Databases and Tools
             <br />
-            <span className="text-sm text-zinc-500">Git, REST APIs</span>
+            <span className="text-sm text-zinc-500 font-normal">
+              RESTful APIs, n8n, Supabase, PostgreSQL, Git, Jira, Notion
+            </span>
           </li>
           <br />
           <li className="text-zinc-700">
-            Databases
+            Software
             <br />
-            <span className="text-sm text-zinc-500">PostgreSQL</span>
+            <span className="text-sm text-zinc-500 font-normal">
+              Adobe Photoshop, Adobe Premiere Pro, Final Cut Pro, Autodesk Maya,
+              Blender, Unreal Engine, Unity
+            </span>
           </li>
           <br />
         </ul>
@@ -58,14 +64,14 @@ const About = () => {
         <ul>
           <li className="text-zinc-700">
             San Diego State University <br />
-            <span className="text-sm text-zinc-500">
+            <span className="text-sm text-zinc-500 font-normal">
               M.S in Computer Science (In-Progress)
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
             California State University, Long Beach <br />
-            <span className="text-sm text-zinc-500">
+            <span className="text-sm text-zinc-500 font-normal">
               B.F.A in Computer Animation
             </span>
           </li>
@@ -73,7 +79,7 @@ const About = () => {
           <li>
             iAnimate
             <br />
-            <span className="text-sm text-zinc-500">
+            <span className="text-sm text-zinc-500 font-normal">
               Game Workshop I, II, III
             </span>
           </li>
@@ -88,10 +94,8 @@ const About = () => {
         <ul>
           Relevant Coursework
           <br />
-          <span className="text-sm text-zinc-500">
-            Calc I / II <br />
+          <span className="text-sm text-zinc-500 font-normal">
             Discrete Math <br />
-            Physics - Mechanics <br />
             Linear Algebra <br />
             Java Programming <br />
             C/C++ Programming <br />
@@ -148,17 +152,19 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-5 text-center md:text-left">
             About
           </h1>
-          <p className="text-base text-md font-medium text-center md:text-lg md:leading-7 text-zinc-500 md:text-justify md:w-10/12">
-            I am pursuing a Master of Science in Computer Science, while
-            actively building my personal brand through social media platforms.
-            Alongside formal education in backend engineering, I am actively
-            expanding my knowledge of frontend frameworks to transform concepts
-            into fully functional software solutions. <br />
+          <p className="text-base text-md font-normal text-center md:text-lg md:leading-7 text-zinc-500 md:text-justify md:w-10/12">
+            Master’s student in Computer Science building end-to-end software
+            products that integrate backend systems, data pipelines, AI, and
+            IoT. I focus on turning complex ideas into scalable, intuitive
+            platforms with real-world impact. My work spans full-stack
+            development, cloud architecture, real-time data processing, and
+            API-driven integrations. <br />
             <br />
-            Outside of my professional and academic pursuits, I enjoy mountain
-            biking and strength training as part of my regular fitness routine.
-            I am also passionate about competitive gaming and the intricacies of
-            multiplayer game design.
+            Beyond academics, I actively pursue startup ventures and software
+            ideas, driven by a passion for building and launching new solutions.
+            Outside of tech, I stay active through mountain biking, strength
+            training, and competitive gaming. I am also passionate about
+            competitive gaming and the intricacies of multiplayer game design.
           </p>
 
           {/* Tab Buttons */}

@@ -1,6 +1,8 @@
 "use client";
 
 import About from "@/components/About";
+import ExperienceSection from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { ProjectSection } from "@/components/ProjectSection";
@@ -65,7 +67,9 @@ export default function Home() {
             </motion.div>
           )}
           <About />
+          <ExperienceSection />
           <ProjectSection />
+          <Footer />
         </main>{" "}
       </TracingBeam>
     </>

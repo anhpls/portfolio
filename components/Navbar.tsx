@@ -9,17 +9,21 @@ import { motion } from "framer-motion";
 import { animateScroll } from "react-scroll";
 
 const navTabs = [
+  // {
+  //   title: "Home",
+  //   path: "home",
+  // },
   {
     title: "About",
     path: "about",
   },
   {
-    title: "Projects",
-    path: "projects",
-  },
-  {
     title: "Experience",
     path: "experience",
+  },
+  {
+    title: "Projects",
+    path: "projects",
   },
 ];
 

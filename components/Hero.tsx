@@ -34,7 +34,7 @@ const Hero = ({
             className="font-sans font-semibold text-stone-900 text-4xl sm:text-5xl lg:text-6xl"
           />
           <TypeAnimation
-            sequence={["", 3950, "anh", 300]}
+            sequence={["", 4450, "anh", 500]}
             wrapper="span"
             speed={10}
             cursor={false}
@@ -50,13 +50,20 @@ const Hero = ({
           animate={animate}
           transition={transition}
         >
-          <p className="z-10 text-neutral-600 text-center md:text-justify font-semibold mb-2 text-md lg:text-lg mt-1 xl:text-xl leading-tight">
+          <p className="z-10 text-neutral-600 text-center md:text-justify font-medium mb-2 text-md lg:text-lg mt-2 xl:text-xl leading-relaxed ">
             I’m a software developer based in San Diego, California, focused on
             integrating scalability and user-centric design into applications. I
             strive to leverage technology and creativity to solve complex
             problems, creating forward-thinking solutions that deliver impactful
             digital experiences through innovative applications and products.
+            {/* <br />
+            <br />
+            <br />
+            <br />
+            Let’s connect and discuss creating impactful experiences through
+            design, technology, and consumer engagement. */}
           </p>
+
           <div>
             {/* Mail Button */}
             <div className="flex justify-center sm:justify-start mt-10 md:mt-28 md:ml-2">
