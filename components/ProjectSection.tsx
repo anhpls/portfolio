@@ -110,7 +110,7 @@ export const ProjectSection = () => {
         className="text-3xl font-bold text-center mb-1"
         id="projects"
       >
-        Projects
+        See What I'm Building
       </motion.div>
       {/* <motion.div
         initial={{ opacity: 0, y: 70 }}

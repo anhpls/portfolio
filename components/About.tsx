@@ -38,10 +38,10 @@ const About = () => {
           </li>
           <br />
           <li className="text-zinc-700">
-            Databases and Tools
+            Databases
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              RESTful APIs, Supabase, PostgreSQL, Git, Jira, Notion
+              RESTful APIs, Supabase, PostgreSQL
             </span>
           </li>
           <br />
@@ -55,10 +55,10 @@ const About = () => {
           </li>
           <br />
           <li className="text-zinc-700">
-            Automation Tools
+            Automation and Other Tools
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Microsoft Playwright, n8n
+              Microsoft Playwright, n8n, Jira, Notion, Git
             </span>
           </li>
           <br />
