@@ -141,7 +141,6 @@ const About = () => {
       transition={{ duration: 1.2 }}
       viewport={{ once: true, amount: 0.3 }}
       className="text-zinc-600 font-semibold font-sans mb-10 mt-10 md:mt-24 lg:mt-36 md:mb-0"
-      id="about"
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
         {/* Image */}
@@ -156,24 +155,28 @@ const About = () => {
         </div>
 
         {/* Header and Bio */}
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full" id="about">
           <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-5 text-center md:text-left">
             About
           </h1>
-          <p className="text-base text-md font-normal text-center md:text-lg md:leading-7 text-zinc-500 md:text-justify md:w-10/12">
-            Master’s student in Computer Science building end-to-end software
-            products that integrate backend systems, data pipelines, AI, and
-            IoT. I focus on turning complex ideas into scalable, intuitive
-            platforms with real-world impact. My work spans full-stack
-            development, cloud architecture, real-time data processing, and
-            API-driven integrations. <br />
-            <br />
-            Beyond academics, I actively pursue startup ventures and software
-            ideas, driven by a passion for building and launching new solutions.
-            Outside of tech, I stay active through mountain biking, strength
-            training, and competitive gaming. I am also passionate about
-            competitive gaming and the intricacies of multiplayer game design.
-          </p>
+          <div className="text-zinc-500 text-center md:text-justify text-base md:text-lg font-normal md:leading-7 md:w-10/12 space-y-4">
+            <p>
+              I’m a Master’s student in Computer Science building end-to-end
+              software products that integrate backend systems, data pipelines,
+              AI, and IoT. I focus on turning complex ideas into scalable,
+              intuitive platforms with real-world impact. My work spans
+              full-stack development, cloud architecture, real-time data
+              processing, and API-driven integrations.
+            </p>
+
+            <p>
+              Beyond academics, I actively pursue startup ventures and software
+              ideas, driven by a passion for building and launching new
+              solutions. Outside of tech, I stay active through mountain biking,
+              strength training, and competitive gaming. I’m especially
+              passionate about the intricacies of multiplayer game design.
+            </p>
+          </div>
 
           {/* Tab Buttons */}
           <div className="grid grid-cols-1 mt-10 md:mt-10 md:w-full">

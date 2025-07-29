@@ -39,12 +39,13 @@ const ExperienceSection: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="py-32 px-4 max-w-5xl mx-auto " id="experience">
+    <section className="py-32 px-4 max-w-5xl mx-auto ">
       <motion.h2
         className="text-4xl font-bold mb-12 text-center"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
+        id="experience"
       >
         Experience
       </motion.h2>

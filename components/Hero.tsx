@@ -25,21 +25,24 @@ const Hero = ({
           transition={{ duration: 2, delay: 0.2 }}
           className="ml-16 md:ml-0"
         >
+          <span className="font-sans font-semibold text-stone-900 text-4xl sm:text-5xl lg:text-6xl">
+            <TypeAnimation
+              sequence={["", 1000, "hello world", 200, "hi, i'm ", 200]}
+              wrapper="span"
+              speed={10}
+              repeat={0}
+              cursor={false}
+              style={{ display: "inline" }}
+            />
+          </span>
           <TypeAnimation
-            sequence={["", 1000, "hello world", 200, "hi, i'm ", 2000]}
+            sequence={["", 4100, "anh"]}
             wrapper="span"
             speed={10}
             repeat={0}
             cursor={false}
-            className="font-sans font-semibold text-stone-900 text-4xl sm:text-5xl lg:text-6xl"
-          />
-          <TypeAnimation
-            sequence={["", 4450, "anh", 500]}
-            wrapper="span"
-            speed={10}
-            cursor={false}
-            className="font-extrabold text-transparent text-4xl sm:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-bl from-orange-500 to-rose-500 transition-colors duration-100 "
-            repeat={0}
+            className="font-extrabold text-transparent text-4xl sm:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-bl from-orange-500 to-rose-500 transition-colors duration-100"
+            style={{ display: "inline" }}
           />
           <span className="inline-block animate-blink">|</span>
         </motion.div>
@@ -50,31 +53,34 @@ const Hero = ({
           animate={animate}
           transition={transition}
         >
-          <p className="z-10 text-neutral-600 text-center md:text-justify font-medium mb-2 text-md lg:text-lg mt-2 xl:text-xl leading-relaxed ">
-            I’m a software developer based in San Diego, California, focused on
-            integrating scalability and user-centric design into applications. I
-            strive to leverage technology and creativity to solve complex
-            problems, creating forward-thinking solutions that deliver impactful
-            digital experiences through innovative applications and products.
-            {/* <br />
+          <div className="z-10 text-neutral-600 text-center md:text-left font-normal text-sm lg:text-md xl:text-xl leading-relaxed space-y-4 max-w-7xl mx-auto mt-2 ">
+            <p>
+              I’m a software developer based in San Diego, California, focused
+              on integrating scalability and user-centric design into
+              applications. I strive to leverage technology and creativity to
+              solve complex problems, creating forward-thinking solutions that
+              deliver impactful digital experiences through innovative
+              applications and products.
+            </p>
             <br />
-            <br />
-            <br />
-            Let’s connect and discuss creating impactful experiences through
-            design, technology, and consumer engagement. */}
-          </p>
+            {/* Group the final paragraph with the button */}
+            <div className="space-y-4">
+              <p className="pb-6">
+                Let’s connect and discuss creating impactful experiences through
+                design, technology, and consumer engagement.
+              </p>
 
-          <div>
-            {/* Mail Button */}
-            <div className="flex justify-center sm:justify-start mt-10 md:mt-28 md:ml-2">
-              <motion.button
-                className="group flex items-center justify-center rounded-md px-6 py-2 bg-zinc-300 text-white hover:bg-black border-white border-2 hover:border-gray-700 transition-colors duration-300"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <EnvelopeIcon className="w-12 h-9 text-white" />
-              </motion.button>
+              {/* Mail Button */}
+              <div className="flex justify-center sm:justify-start">
+                <motion.button
+                  className="group flex items-center justify-center rounded-md px-6 py-2 bg-zinc-300 text-white hover:bg-black border-white border-2 hover:border-gray-700 transition-colors duration-300"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                >
+                  <EnvelopeIcon className="w-12 h-9 text-white" />
+                </motion.button>
+              </div>
             </div>
           </div>
         </motion.div>

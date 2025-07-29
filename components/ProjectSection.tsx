@@ -101,14 +101,16 @@ export const ProjectSection = () => {
       : projectDetails.filter((project) => project.tag.includes(tag));
 
   return (
-    <div className="lg:mt-20 mt-10 py-10 px-4 md:px-16 lg:px-32 bg-zinc-50">
+    <div
+      className="lg:mt-20 mt-10 py-10 px-4 md:px-16 lg:px-32 bg-zinc-50"
+      id="projects"
+    >
       <motion.div
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         className="text-3xl font-bold text-center mb-1"
-        id="projects"
       >
         See What I'm Building
       </motion.div>

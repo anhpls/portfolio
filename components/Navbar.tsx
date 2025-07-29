@@ -9,10 +9,10 @@ import { motion } from "framer-motion";
 import { animateScroll } from "react-scroll";
 
 const navTabs = [
-  // {
-  //   title: "Home",
-  //   path: "home",
-  // },
+  {
+    title: "Home",
+    path: "top",
+  },
   {
     title: "About",
     path: "about",
@@ -77,7 +77,16 @@ const Navbar = ({
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-2">
             {navTabs.map((link, index) => (
               <li key={index} className="hover:text-white">
-                <NavTabs href={link.path} title={link.title} />
+                {link.path === "top" ? (
+                  <NavTabs
+                    title="Home"
+                    onClick={() =>
+                      animateScroll.scrollToTop({ smooth: true, duration: 500 })
+                    }
+                  />
+                ) : (
+                  <NavTabs href={link.path} title={link.title} />
+                )}
               </li>
             ))}
           </ul>
