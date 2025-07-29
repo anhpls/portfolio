@@ -41,7 +41,7 @@ const About = () => {
             Databases and Tools
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              RESTful APIs, n8n, Supabase, PostgreSQL, Git, Jira, Notion
+              RESTful APIs, Supabase, PostgreSQL, Git, Jira, Notion
             </span>
           </li>
           <br />
@@ -51,6 +51,14 @@ const About = () => {
             <span className="text-sm text-zinc-500 font-normal">
               Adobe Photoshop, Adobe Premiere Pro, Final Cut Pro, Autodesk Maya,
               Blender, Unreal Engine, Unity
+            </span>
+          </li>
+          <br />
+          <li className="text-zinc-700">
+            Automation Tools
+            <br />
+            <span className="text-sm text-zinc-500 font-normal">
+              Microsoft Playwright, n8n
             </span>
           </li>
           <br />
