@@ -5,9 +5,9 @@ const experiences = [
   {
     title: "Tag-N-Trac",
     company: "Software Engineer Intern",
-    date: "June 2025 – Sept 2025",
+    date: "June 2025 to Sept 2025",
     description:
-      "• Developed and prototyped IoT tracking devices using microcontrollers, Bluetooth, and WiFi.\n• Working on embedded firmware development and device integration for real-time asset monitoring.\n• Implemented real-time data ingestion pipelines using n8n, Supabase, and Next.js, integrating hardware IoT tracker data into a cloud-based analytics platform.\n• Built real-time tracking dashboards, integrated APIs, and developed backend pipelines for IoT tracking systems.",
+      "• Developed and prototyped IoT tracking devices using microcontrollers, Bluetooth, and WiFi.\n• Working on embedded firmware development and device integration for real-time asset monitoring.\n• Implemented real-time data ingestion pipelines using n8n, Supabase, and Next.js, integrating hardware IoT tracker data into a cloud-based analytics platform.\n• Built real-time tracking dashboards, integrated APIs, and developed backend pipelines for IoT tracking systems.\n• Streamlined platform testing by developing robust Microsoft Playwright end-to-end suites, automating critical user flows to enhance reliability and optimize CI/CD workflows.",
     logo: "/images/tag_n_trac_logo.jpeg",
   },
   {
@@ -26,7 +26,7 @@ const experiences = [
   {
     title: "Tiny Tiger",
     company: "Web Developer Intern",
-    date: "Jan 2025 – Apr 2025",
+    date: "Jan 2025 to Apr 2025",
     description:
       "• Maintained and updated the website by integrating monthly activities and special events to enhance user engagement.\n" +
       "• Designed and implemented user-friendly UX/UI components, ensuring a seamless experience for visitors.\n" +
