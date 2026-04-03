@@ -24,8 +24,8 @@ const About = () => {
             Languages
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              C/C++, TypeScript, JavaScript, Java, Python, C#, HTML/CSS,
-              Assembly Language (x86)
+              Python, C/C++, TypeScript, JavaScript, Java, HTML/CSS, Assembly
+              Language (x86)
             </span>
           </li>
           <br />
@@ -33,7 +33,7 @@ const About = () => {
             Frameworks and Libraries
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Next.js, React.js, Node.js, TailwindCSS, Docker
+              Next.js, React.js, Node.js, TailwindCSS, Playwright
             </span>
           </li>
           <br />
@@ -41,24 +41,15 @@ const About = () => {
             Databases
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              RESTful APIs, Supabase, PostgreSQL
+              PostgreSQL, Redis, Docker, Prisma, RESTful APIs, Supabase
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
-            Software
+            Tools
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Adobe Photoshop, Adobe Premiere Pro, Final Cut Pro, Autodesk Maya,
-              Blender, Unreal Engine, Unity
-            </span>
-          </li>
-          <br />
-          <li className="text-zinc-700">
-            Automation and Other Tools
-            <br />
-            <span className="text-sm text-zinc-500 font-normal">
-              Microsoft Playwright, n8n, Jira, Notion, Git
+              Git, Jira, Notion, Vercel, n8n
             </span>
           </li>
           <br />
@@ -102,16 +93,17 @@ const About = () => {
           Relevant Coursework
           <br />
           <span className="text-sm text-zinc-500 font-normal">
-            Discrete Math <br />
-            Linear Algebra <br />
             Java Programming <br />
             C/C++ Programming <br />
-            Data Structures in C++ <br />
-            Computer Organization and Assembly Language <br />
-            Computer Architecture <br />
+            Intermediate Java Programming <br />
+            Computer Organization & Assembly Language <br />
             Algorithms <br />
-            Operating Systems
-            <br />
+            Data Structures in C++ <br />
+            Computer Architecture <br />
+            Operating Systems <br />
+            Calculus I & II <br />
+            Discrete Mathematics <br />
+            Linear Algebra <br />
           </span>
         </ul>
       ),
