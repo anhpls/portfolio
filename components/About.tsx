@@ -64,7 +64,9 @@ const About = () => {
           <li className="text-zinc-700">
             San Diego State University (Open University) <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Coursework in Computer Science
+              Algorithms <br />
+              Computer Architecture <br />
+              Operating Systems <br />
             </span>
           </li>
           <br />
@@ -72,7 +74,11 @@ const About = () => {
             San Diego Community College District
             <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Coursework in Computer Science
+              Java Programming <br />
+              C/C++ Programming <br />
+              Computer Org & Assembly Lang <br />
+              Data Structures in C++ <br />
+              Intermediate Java Programming <br />
             </span>
           </li>
           <br />
