@@ -7,7 +7,7 @@ const experiences = [
     company: "Software Engineer Intern",
     date: "June 2025 to Sept 2025",
     description:
-      "• Developed and prototyped IoT tracking devices using microcontrollers, Bluetooth, and WiFi.\n• Working on embedded firmware development and device integration for real-time asset monitoring.\n• Implemented real-time data ingestion pipelines using n8n, Supabase, and Next.js, integrating hardware IoT tracker data into a cloud-based analytics platform.\n• Built real-time tracking dashboards, integrated APIs, and developed backend pipelines for IoT tracking systems.\n• Streamlined platform testing by developing robust Microsoft Playwright end-to-end suites, automating critical user flows to enhance reliability and optimize CI/CD workflows.",
+      "• Engineered 120+ end-to-end Playwright tests across shipment filters, pagination, data exports, and real-time map systems, reducing manual testing time ~35% and increasing shipping confidence. \n• Built real-time IoT data ingestion pipelines using n8n, Supabase, and Next.js, routing live hardware tracker data into a cloud analytics platform with sub-second update latency. \n• Prototyped asset-tracking firmware on ESP32 microcontrollers, integrating Bluetooth Low Energy and WiFi connectivity to synchronize device telemetry with cloud backend systems. \n• Diagnosed and traced failures across distributed system layers (frontend, backend APIs, IoT firmware, and real-time maps), developing a systematic debugging approach for complex multi-service failures.\n",
     logo: "/images/tag_n_trac_logo.jpeg",
   },
   {
