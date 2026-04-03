@@ -71,14 +71,16 @@ const Hero = ({
 
               {/* Mail Button */}
               <div className="flex justify-center sm:justify-start">
-                <motion.button
-                  className="group flex items-center justify-center rounded-md px-6 py-2 bg-zinc-300 text-white hover:bg-black border-white border-2 hover:border-gray-700 transition-colors duration-300"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >
-                  <EnvelopeIcon className="w-12 h-9 text-white" />
-                </motion.button>
+                <a href="mailto:anh.h.duy@gmail.com">
+                  <motion.button
+                    className="group flex items-center justify-center rounded-md px-6 py-2 bg-zinc-300 text-white hover:bg-black border-white border-2 hover:border-gray-700 transition-colors duration-300"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <EnvelopeIcon className="w-12 h-9 text-white" />
+                  </motion.button>
+                </a>
               </div>
             </div>
           </div>
