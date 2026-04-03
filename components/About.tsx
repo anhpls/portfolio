@@ -77,21 +77,21 @@ const About = () => {
             </span>
           </li>
           <br />
+          <li>
+            San Diego Community College District
+            <br />
+            <span className="text-sm text-zinc-500 font-normal">
+              Coursework in Computer Science
+            </span>
+          </li>
+          <br />
+          <br />
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500 font-normal">
               B.A in Computer Animation
             </span>
           </li>
-          <br />
-          <li>
-            iAnimate
-            <br />
-            <span className="text-sm text-zinc-500 font-normal">
-              Game Workshop I, II, III
-            </span>
-          </li>
-          <br />
         </ul>
       ),
     },
