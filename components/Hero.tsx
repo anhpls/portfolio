@@ -53,7 +53,7 @@ const Hero = ({
           animate={animate}
           transition={transition}
         >
-          <div className="z-10 text-neutral-600 text-justify [hyphens:auto] font-normal text-sm lg:text-base xl:text-lg leading-relaxed space-y-6 max-w-6xl mt-2">
+          <div className=" z-10 max-w-4xl mt-2 space-y-4 text-sm lg:text-base xl:text-lg leading-relaxed text-neutral-500 font-normal">
             <p>
               I'm a software developer working across backend APIs, full-stack
               applications, and dev tooling, with a focus on systems that are
