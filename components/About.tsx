@@ -158,7 +158,7 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-5 text-center md:text-left">
             About
           </h1>
-          <div className="z-10 text-neutral-600 text-center md:text-left font-normal text-sm lg:text-md xl:text-xl leading-relaxed space-y-4 max-w-7xl mx-auto mt-2">
+          <div className="z-10 text-neutral-600 text-center font-normal text-sm lg:text-md xl:text-lg leading-relaxed space-y-4 max-w-7xl mx-auto mt-2">
             <p>
               I’m a software engineer focused on building end-to-end systems
               that combine backend infrastructure, real-time data, and intuitive
