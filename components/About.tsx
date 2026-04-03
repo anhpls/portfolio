@@ -71,16 +71,16 @@ const About = () => {
       content: (
         <ul>
           <li className="text-zinc-700">
-            San Diego State University <br />
+            San Diego State University (Open University) <br />
             <span className="text-sm text-zinc-500 font-normal">
-              M.S in Computer Science (In-Progress)
+              Coursework in Computer Science
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500 font-normal">
-              B.F.A in Computer Animation
+              B.A in Computer Animation
             </span>
           </li>
           <br />
