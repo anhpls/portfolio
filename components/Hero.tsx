@@ -53,21 +53,20 @@ const Hero = ({
           animate={animate}
           transition={transition}
         >
-          <div className="z-10 text-neutral-600 text-center md:text-left font-normal text-sm lg:text-md xl:text-xl leading-relaxed space-y-4 max-w-7xl mx-auto mt-2 ">
+          <div className="z-10 text-neutral-600 text-justify [hyphens:auto] font-normal text-sm lg:text-base xl:text-lg leading-relaxed space-y-6 max-w-6xl mt-2">
             <p>
-              I’m a software developer based in San Diego, California, focused
-              on integrating scalability and user-centric design into
-              applications. I strive to leverage technology and creativity to
-              solve complex problems, creating forward-thinking solutions that
-              deliver impactful digital experiences through innovative
-              applications and products.
+              I'm a software developer working across backend APIs, full-stack
+              applications, and dev tooling, with a focus on systems that are
+              reliable and maintainable under real conditions. I care about
+              performance, observability, and building things that don't break
+              when they matter most.
             </p>
             <br />
             {/* Group the final paragraph with the button */}
             <div className="space-y-4">
               <p className="pb-6">
-                Let’s connect and discuss creating impactful experiences through
-                design, technology, and consumer engagement.
+                Open to opportunities, collaborations, and conversations around
+                building scalable systems.
               </p>
 
               {/* Mail Button */}

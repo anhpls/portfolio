@@ -155,30 +155,27 @@ const About = () => {
 
         {/* Header and Bio */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full" id="about">
-          <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-5 text-center md:text-left">
+          <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-5">
             About
           </h1>
-          <div className="z-10 text-neutral-600 text-justify md:text-left font-normal text-sm lg:text-md xl:text-xl leading-relaxed space-y-4 max-w-7xl mx-auto mt-2">
+
+          <div className="z-10 text-neutral-600 text-justify [hyphens:auto] font-normal text-sm lg:text-base xl:text-lg leading-relaxed space-y-6 max-w-4xl mt-2">
             <p>
-              I’m a software engineer focused on building end-to-end systems
-              that combine backend infrastructure, real-time data, and intuitive
-              user experiences. My work centers around creating scalable
-              platforms, from observability tools that track system performance
-              to full-stack applications that integrate APIs, databases, and
-              analytics. I’m especially interested in how systems behave under
-              real-world conditions and how to design software that is both
-              reliable and efficient.
+              My work spans backend infrastructure, data pipelines, and
+              full-stack applications, with a focus on production-level demands
+              and live data. I'm drawn to the harder problems: understanding
+              system behavior at scale, diagnosing bottlenecks, and improving
+              observability. I gravitate toward API-driven architectures and
+              efficient data handling, and I care about building things that are
+              resilient and maintainable, not just functional.
             </p>
 
             <p>
-              Outside of formal coursework, I actively build projects and
-              explore startup ideas, turning concepts into functional products.
-              I enjoy working across the stack and continuously improving my
-              skills in system design, cloud-based architectures, and
-              performance-focused engineering. Beyond tech, I stay active
-              through mountain biking, strength training, and competitive
-              gaming, where my interest in multiplayer systems and game design
-              continues to grow.
+              Outside of engineering, I enjoy building and experimenting with
+              new ideas, often turning them into working products. I also stay
+              active through mountain biking, strength training, and competitive
+              gaming, where my interest in multiplayer systems and real-time
+              interactions continues to grow.
             </p>
           </div>
 
