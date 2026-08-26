@@ -35,6 +35,27 @@ const experiences = [
   },
 ];
 
+type Experience = (typeof experiences)[number];
+
+const ExperienceCard: FC<{ exp: Experience }> = ({ exp }) => (
+  <div className="p-6 rounded-2xl border border-gray-200 shadow-lg bg-white">
+    {exp.logo && (
+      <div className="flex justify-center mb-4">
+        <img
+          src={exp.logo}
+          alt={`${exp.company} logo`}
+          className="w-40 h-40 object-contain rounded-lg"
+        />
+      </div>
+    )}
+    <h3 className="text-2xl font-semibold">{exp.title}</h3>
+    <p className="text-sm text-gray-500 mb-2">
+      {exp.company} — {exp.date}
+    </p>
+    <p className="text-gray-700 whitespace-pre-line">{exp.description}</p>
+  </div>
+);
+
 const ExperienceSection: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -85,37 +106,31 @@ const ExperienceSection: FC = () => {
         </motion.div>
 
         {/* Content */}
-        <div className="flex-1 min-h-[450px]">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={activeIndex}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 20 }}
-              transition={{ duration: 0.5 }}
-              className="p-6 rounded-2xl border border-gray-200 shadow-lg bg-white"
-            >
-              {experiences[activeIndex].logo && (
-                <div className="flex justify-center mb-4">
-                  <img
-                    src={experiences[activeIndex].logo}
-                    alt={`${experiences[activeIndex].company} logo`}
-                    className="w-40 h-40 object-contain rounded-lg"
-                  />
-                </div>
-              )}
-              <h3 className="text-2xl font-semibold">
-                {experiences[activeIndex].title}
-              </h3>
-              <p className="text-sm text-gray-500 mb-2">
-                {experiences[activeIndex].company} —{" "}
-                {experiences[activeIndex].date}
-              </p>
-              <p className="text-gray-700 whitespace-pre-line">
-                {experiences[activeIndex].description}
-              </p>
-            </motion.div>
-          </AnimatePresence>
+        <div className="flex-1 relative">
+          <div
+            className="grid invisible pointer-events-none"
+            aria-hidden="true"
+          >
+            {experiences.map((exp, index) => (
+              <div key={index} style={{ gridArea: "1 / 1" }}>
+                <ExperienceCard exp={exp} />
+              </div>
+            ))}
+          </div>
+
+          <div className="absolute top-0 left-0 w-full">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeIndex}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 20 }}
+                transition={{ duration: 0.5 }}
+              >
+                <ExperienceCard exp={experiences[activeIndex]} />
+              </motion.div>
+            </AnimatePresence>
+          </div>
         </div>
       </div>
     </section>

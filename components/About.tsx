@@ -62,6 +62,13 @@ const About = () => {
       content: (
         <ul>
           <li className="text-zinc-700">
+            California State University, Channel Islands <br />
+            <span className="text-sm text-zinc-500 font-normal">
+              Bachelor of Science, Computer Science
+            </span>
+          </li>
+          <br />
+          <li className="text-zinc-700">
             San Diego State University (Open University) <br />
             <span className="text-sm text-zinc-500 font-normal">
               Algorithms <br />
@@ -85,7 +92,7 @@ const About = () => {
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500 font-normal">
-              B.A in Computer Animation
+              Bachelor of Arts, Computer Animation
             </span>
           </li>
         </ul>
