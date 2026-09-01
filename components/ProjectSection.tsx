@@ -20,14 +20,14 @@ export const ProjectSection = () => {
   const projectDetails: ProjectDetail[] = [
     {
       id: 1,
-      title: "Uniflo",
+      title: "Vexilo",
       description:
-        "UniFLO is an AI-powered task management platform that optimizes student schedules by parsing course syllabi, generating dynamic calendars, and prioritizing assignments for better productivity and time management.",
-      image: "/images/uniflo/pic.png",
-      gitUrl: "https://github.com/anhpls/uniflo",
-      pageUrl: "https://uniflo-beta.vercel.app/",
+        "A distributed task queue system with automatic retries, failure recovery, and live monitoring. Built with FastAPI, Redis, and PostgreSQL.",
+      image: "/images/vexilo/pic.png",
+      gitUrl: "#",
+      pageUrl: "#",
       tag: ["Web", "All"],
-      livePreview: true,
+      livePreview: false,
     },
     {
       id: 2,
