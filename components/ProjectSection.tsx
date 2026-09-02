@@ -24,7 +24,7 @@ export const ProjectSection = () => {
       description:
         "A distributed task queue system with automatic retries, failure recovery, and live monitoring. Built with FastAPI, Redis, and PostgreSQL.",
       image: "/images/vexilo/pic.png",
-      gitUrl: "#",
+      gitUrl: "https://github.com/anhpls/vexilo",
       pageUrl: "#",
       tag: ["Web", "All"],
       livePreview: false,
