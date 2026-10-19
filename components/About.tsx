@@ -61,38 +61,36 @@ const About = () => {
       id: "education",
       content: (
         <ul>
+          <li className="text-zinc-70">
+            Georgia Institute of Technology <br />
+            <span className="text-sm text-zinc-500 font-normal">
+              Master of Science, Computer Science (Expected Dec 2029)
+            </span>
+          </li>
+          <br />
           <li className="text-zinc-700">
             California State University, Channel Islands <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Bachelor of Science, Computer Science
+              Bachelor of Science, Computer Science (Expected Dec 2027)
             </span>
           </li>
           <br />
           <li className="text-zinc-700">
             San Diego State University (Open University) <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Algorithms <br />
-              Computer Architecture <br />
-              Operating Systems <br />
+              Coursework in Computer Science
             </span>
-          </li>
-          <br />
-          <li>
-            San Diego Community College District
-            <br />
-            <span className="text-sm text-zinc-500 font-normal">
-              Java Programming <br />
-              C/C++ Programming <br />
-              Computer Org & Assembly Lang <br />
-              Data Structures in C++ <br />
-              Intermediate Java Programming <br />
-            </span>
+            <ul className="text-sm text-zinc-500 font-normal list-disc pl-5 mt-1">
+              <li>Algorithms</li>
+              <li>Computer Architecture</li>
+              <li>Operating Systems</li>
+            </ul>
           </li>
           <br />
           <li className="text-zinc-700">
             California State University, Long Beach <br />
             <span className="text-sm text-zinc-500 font-normal">
-              Bachelor of Arts, Computer Animation
+              Bachelor of Fine Arts in Animation
             </span>
           </li>
         </ul>
@@ -102,23 +100,20 @@ const About = () => {
       title: "Coursework",
       id: "coursework",
       content: (
-        <ul>
+        <div>
           Relevant Coursework
-          <br />
-          <span className="text-sm text-zinc-500 font-normal">
-            Java Programming <br />
-            C/C++ Programming <br />
-            Intermediate Java Programming <br />
-            Computer Organization & Assembly Language <br />
-            Algorithms <br />
-            Data Structures in C++ <br />
-            Computer Architecture <br />
-            Operating Systems <br />
-            Calculus I & II <br />
-            Discrete Mathematics <br />
-            Linear Algebra <br />
-          </span>
-        </ul>
+          <ul className="text-sm text-zinc-500 font-normal">
+            <li>Data Structures in C++</li>
+            <li>Algorithms</li>
+            <li>Operating Systems</li>
+            <li>Computer Architecture</li>
+            <li>Computer System Security</li>
+            <li>Computer Organization & Assembly Language</li>
+            <li>Programming Languages</li>
+            <li>C/C++ Programming</li>
+            <li>Intermediate Java Programming</li>
+          </ul>
+        </div>
       ),
     },
     {
